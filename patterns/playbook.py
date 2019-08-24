@@ -1,14 +1,13 @@
-# z = {}
-# z.setdefault('f', [])
-# print(z)
-#
-# z['f'].append('a')
-# z.setdefault('f', [])
-# print(z)
+class Employee:
+    def __new__(cls, *args, **kwargs):
+        print(cls, (args, kwargs))
+        return super().__new__(cls)
 
-class A:
-    def __call__(self, *args, **kwargs):
-        print(args, kwargs)
+    def __init__(self, *args, **kwargs):
+        print('__init__', (args, kwargs))
 
 
-A()()
+e = Employee(12, 13)
+
+
+

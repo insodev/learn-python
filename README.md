@@ -94,7 +94,13 @@ SOAP протокол обмена xml-сообщениями
 # Что такое PEP8
 Как Вы к нему относитесь?
 
+# Singleton
+https://stackoverflow.com/questions/6760685/creating-a-singleton-in-python
 
+Интересно, это потокобезопасно?
 
+# Что такое Метаклассы?
+Советую полностью прочитать [ Метаклассы в Python (habr) ](https://habr.com/ru/post/145835/) 
+либо [Метаклассы в Python: что это такое и с чем его едят (tpproger)](https://proglib.io/p/metaclasses-in-python/).
 
-
+# 
